@@ -16,4 +16,18 @@ class Teacher
   end
 end
 
+def initialize last_name.do |last_name|
+@last_name = last_name
+last_name.new ="has a last name"
+teacher.last_name="Flombaum"
+teacher.last_name=("Flombaum")
+ end
+end
 
+def initialize teach.do |teach|
+  @teach= teach
+  teach.new ="returns a random string of knowledge"
+  knowledge.to include(teacher.teach) 
+     end
+  end
+end
