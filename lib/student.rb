@@ -29,7 +29,7 @@ def learn .do  |learn|
     learn.new ="takes in an argument of a string of knowledge and adds it to the student's knowledge array"
    Student.learn="Ruby framework Rails gem bundle update"
 Student.instance_variable_get((knowledge)).to include("Ruby framework Rails gem bundle update")
-end
+ end
 end
 
 def knowledge.do |knowledge|
@@ -37,3 +37,5 @@ def knowledge.do |knowledge|
     knowledge.new ="returns that student's knowledge array"
 student.learn ="Javascript Ember Elixir knowledge"
 student.knowledge.to include("Javascript Ember Elixir knowledge")
+ end 
+end
